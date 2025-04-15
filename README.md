@@ -8,6 +8,10 @@ Cada arquivo corresponde a uma aula ou tema específico:
 
 1. **variaveis.js** – Introdução às variáveis e tipos de declaração (`var`, `let`, `const`)
 2. **tiposDeDados.js** – Tipos de dados em JavaScript (string, number, boolean, etc.)
+3. **estruturaDeDados.js** – Estruturas de dados como arrays e objetos
+4. **ifElse.js** – Estruturas condicionais `if`, `else if` e `else`
+5. **function.js** – Criação e uso de funções em JavaScript
+6. **element-selection.js** – Seleção de elementos no DOM usando métodos como `getElementById`, `querySelector`, etc.
 
 ## 🛠️ Tecnologias
 
