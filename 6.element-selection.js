@@ -21,3 +21,9 @@ console.log(tag)
 
 const nome = document.getElementsByName("nome-completo")
 console.log(nome)
+
+const element = document.querySelector("p")
+console.log(element)
+
+const all = document.querySelectorAll("p")
+console.log(all)
