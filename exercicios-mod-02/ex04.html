@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Alterar Itens</title>
+  </head>
+  <body>
+    <div class="item">Item 1</div>
+    <div class="item">Item 2</div>
+    <div class="item">Item 3</div>
+    <button onclick="alterarItens()">Alterar Itens</button>
+
+    <script>
+      function alterarItens() {
+        // Seleciona todas as divs com a classe "item"
+        var itens = document.querySelectorAll(".item");
+
+        // Percorre cada item e altera o texto
+        itens.forEach(function (item) {
+          item.innerText = "Item alterado";
+        });
+      }
+    </script>
+  </body>
+</html>
