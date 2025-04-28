@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Usando querySelector</title>
+  </head>
+  <body>
+    <p>Texto original.</p>
+    <button onclick="mudarTexto()">Clique aqui</button>
+
+    <script>
+      function mudarTexto() {
+        document.querySelector("p").innerText = "Olá, mundo!";
+      }
+    </script>
+  </body>
+</html>

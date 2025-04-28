@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Links com Alerta</title>
+</head>
+<body>
+    <a href="#">Link 1</a><br>
+    <a href="#">Link 2</a><br>
+    <a href="#">Link 3</a><br>
+
+    <script>
+        // Pega todos os elementos <a>
+        var links = document.getElementsByTagName('a');
+
+        // Percorre todos os links e adiciona um evento de clique
+        for (var i = 0; i < links.length; i++) {
+            links[i].onclick = function(event) {
+                event.preventDefault(); // Impede que o link redirecione
+                alert(this.innerText); // Mostra o texto do link clicado
+            };
+        }
+    </script>
+</body>
+</html>
